@@ -6,7 +6,7 @@ from datetime import datetime
 
 #define our target
 if len(sys.argv) == 2:
-	target = socket.gethostbyname(sys.argv[1])   #translate hostname ti IPv4
+	target = socket.gethostbyname(sys.argv[1])   #translate hostname to IPv4
 else:
 	print("Invalid arguement.")
 	print("Syntax: python3 scanner.py <ip>")
